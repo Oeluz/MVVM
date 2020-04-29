@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Recipes.EditRecipePage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="HeaderFont">
+                <On Platform="Android" Value="PlayfairDisplay-VariableFont_wght.ttf#Playfair Display" />
+                <On Platform="UWP" Value="/Assets/PlayfairDisplay-VariableFont_wght.ttf#Playfair Display" />
+                <On Platform="iOS" Value="PlayfairDisplay-VariableFont_wght" />
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="NormalFont">
+                <On Platform="Android" Value="Ruda-VariableFont_wght.ttf#Ruda" />
+                <On Platform="UWP" Value="/Assets/Ruda-VariableFont_wght.ttf#Ruda" />
+                <On Platform="iOS" Value="Ruda-VariableFont_wght" />
+            </OnPlatform>
+            <Style TargetType="Label" x:Key="HeaderStyle">
+                <Setter Property="Margin" Value="30,30,0,0" />
+                <Setter Property="FontSize" Value="30" />
+                <Setter Property="TextColor" Value="{DynamicResource ThemeColor}" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="FontFamily" Value="{DynamicResource HeaderFont}" />
+            </Style>
+            <Style TargetType="Entry" x:Key="TitleStyle">
+                <Setter Property="Margin" Value="30,30,0,0" />
+                <Setter Property="FontSize" Value="30" />
+                <Setter Property="TextColor" Value="{DynamicResource ThemeColor}" />
+                <Setter Property="FontFamily" Value="{DynamicResource HeaderFont}" />
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+            <Style TargetType="Button" x:Key="ButtonStyle">
+                <Setter Property="BackgroundColor" Value="{DynamicResource ThemeColor}" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Clicked="ToolbarItem_Clicked" />
+        <ToolbarItem Text="Cancel" Clicked="ToolbarItem_Clicked_1" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Entry x:Name="titleEntry"
+                       Placeholder="Title"
+                       Text="{Binding Name}"
+                       Style="{DynamicResource TitleStyle}"
+                       FontSize="50"
+                       Margin="40, 0" />
+                <Label Text="Ingredients"
+                       Style="{StaticResource HeaderStyle}" />
+                <Frame BorderColor="{DynamicResource Key=ThemeColor}"
+                       Margin="25">
+                    <ListView x:Name="ingredListView"
+                              ItemTapped="ingredListView_ItemTapped"
+                              ItemsSource="{Binding Ingredients}"
+                              HeightRequest="200"
+                              SeparatorColor="Orange" />
+                </Frame>
+                <Entry x:Name="ingredientAdd"
+                       Placeholder="Ingredient"
+                       Margin="40,0"
+                       TextColor="Orange"
+                       FontFamily="{StaticResource Key=NormalFont}" />
+                <Button x:Name="addBtn"
+                        Clicked="addBtn_Clicked"
+                        Text="Add"
+                        Style="{DynamicResource ButtonStyle}"
+                        TextColor="White"
+                        Margin="120, 0" />
+                <Label Text="Direction"
+                       Style="{StaticResource HeaderStyle}" />
+                <Frame BorderColor="{DynamicResource Key=ThemeColor}"
+                       Margin="25">
+                    <Editor x:Name="directionEdit"
+                            Placeholder="Type your direction here...."
+                            Text="{Binding Directions}"
+                            AutoSize="TextChanges"
+                            FontFamily="{StaticResource Key=NormalFont}" />
+                </Frame>
+                <Label Text="Category"
+                       Style="{StaticResource HeaderStyle}" />
+                <Frame BorderColor="{DynamicResource Key=ThemeColor}"
+                       Margin="25">
+                    <Entry x:Name="categoryEntry"
+                            Placeholder="Type a category..."
+                            Text="{Binding Category}"
+                            FontFamily="{StaticResource Key=NormalFont}" />
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

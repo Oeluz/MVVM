@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Search/Sort"
+             x:Class="Recipes.SortSearchPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="StackLayout" x:Key="BG">
+                <Setter Property="BackgroundColor" Value="{DynamicResource ThemeColor}" />
+            </Style>
+            <Style TargetType="Label" x:Key="FG">
+                <Setter Property="TextColor" Value="{DynamicResource ThemeColor}" />
+            </Style>
+            <OnPlatform x:TypeArguments="x:String" x:Key="HeaderFont">
+                <On Platform="Android" Value="PlayfairDisplay-VariableFont_wght.ttf#Playfair Display" />
+                <On Platform="UWP" Value="/Assets/PlayfairDisplay-VariableFont_wght.ttf#Playfair Display" />
+                <On Platform="iOS" Value="PlayfairDisplay-VariableFont_wght" />
+            </OnPlatform>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Sort" Clicked="ToolbarItem_Clicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <SearchBar x:Name="ListSearch" TextChanged="ListSearch_TextChanged" />
+            <ListView x:Name="recipeListView"
+              ItemTapped="recipeListView_ItemTapped"
+              ItemsSource="{Binding .}"
+              RowHeight="85">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal"
+                                     Style="{DynamicResource BG}"
+                                 Padding="10"
+                                 Margin="10,5,10,5">
+                                <Image Source="Arrow" />
+                                <Label Text="{Binding .Name, StringFormat='>  {0}'}"
+                                   FontFamily="{StaticResource Key=HeaderFont}"
+                               TextColor="White"
+                               VerticalTextAlignment="Center"
+                               FontSize="40"
+                               FontAttributes="Bold" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

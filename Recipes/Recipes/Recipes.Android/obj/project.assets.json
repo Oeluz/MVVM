@@ -2212,24 +2212,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Zhen\\.nuget\\packages\\": {},
+    "C:\\Users\\Quoc\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zhen\\Documents\\GitHub\\homework-4-Oeluz-1\\Recipes\\Recipes\\Recipes.Android\\Recipes.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\MVVM\\Recipes\\Recipes\\Recipes.Android\\Recipes.Android.csproj",
       "projectName": "Recipes.Android",
-      "projectPath": "C:\\Users\\Zhen\\Documents\\GitHub\\homework-4-Oeluz-1\\Recipes\\Recipes\\Recipes.Android\\Recipes.Android.csproj",
-      "packagesPath": "C:\\Users\\Zhen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zhen\\Documents\\GitHub\\homework-4-Oeluz-1\\Recipes\\Recipes\\Recipes.Android\\obj\\",
+      "projectPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\MVVM\\Recipes\\Recipes\\Recipes.Android\\Recipes.Android.csproj",
+      "packagesPath": "C:\\Users\\Quoc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\MVVM\\Recipes\\Recipes\\Recipes.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Zhen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Quoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2243,8 +2243,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Zhen\\Documents\\GitHub\\homework-4-Oeluz-1\\Recipes\\Recipes\\Recipes\\Recipes.csproj": {
-              "projectPath": "C:\\Users\\Zhen\\Documents\\GitHub\\homework-4-Oeluz-1\\Recipes\\Recipes\\Recipes\\Recipes.csproj"
+            "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\MVVM\\Recipes\\Recipes\\Recipes\\Recipes.csproj": {
+              "projectPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\MVVM\\Recipes\\Recipes\\Recipes\\Recipes.csproj"
             }
           }
         }

@@ -1,0 +1,80 @@
+C:\Users\Zhen\Documents\GitHub\homework-2-Oeluz-1\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\Recipes.deps.json
+C:\Users\Zhen\Documents\GitHub\homework-2-Oeluz-1\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\Recipes.dll
+C:\Users\Zhen\Documents\GitHub\homework-2-Oeluz-1\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\ref\Recipes.dll
+C:\Users\Zhen\Documents\GitHub\homework-2-Oeluz-1\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\Recipes.pdb
+C:\Users\Zhen\Documents\GitHub\homework-2-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.csprojAssemblyReference.cache
+C:\Users\Zhen\Documents\GitHub\homework-2-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Zhen\Documents\GitHub\homework-2-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\EditRecipePage.xaml.g.cs
+C:\Users\Zhen\Documents\GitHub\homework-2-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Zhen\Documents\GitHub\homework-2-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\RecipePage.xaml.g.cs
+C:\Users\Zhen\Documents\GitHub\homework-2-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.AssemblyInfoInputs.cache
+C:\Users\Zhen\Documents\GitHub\homework-2-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.AssemblyInfo.cs
+C:\Users\Zhen\Documents\GitHub\homework-2-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Zhen\Documents\GitHub\homework-2-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.dll
+C:\Users\Zhen\Documents\GitHub\homework-2-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\ref\Recipes.dll
+C:\Users\Zhen\Documents\GitHub\homework-2-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.pdb
+C:\Users\Zhen\Desktop\Homework 3 - Temp\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.csprojAssemblyReference.cache
+C:\Users\Zhen\Desktop\Homework 3 - Temp\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Zhen\Desktop\Homework 3 - Temp\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\EditRecipePage.xaml.g.cs
+C:\Users\Zhen\Desktop\Homework 3 - Temp\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Zhen\Desktop\Homework 3 - Temp\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\RecipePage.xaml.g.cs
+C:\Users\Zhen\Desktop\Homework 3 - Temp\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\SortSearchPage.xaml.g.cs
+C:\Users\Zhen\Desktop\Homework 3 - Temp\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.AssemblyInfoInputs.cache
+C:\Users\Zhen\Desktop\Homework 3 - Temp\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.AssemblyInfo.cs
+C:\Users\Zhen\Desktop\Homework 3 - Temp\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.dll
+C:\Users\Zhen\Desktop\Homework 3 - Temp\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\ref\Recipes.dll
+C:\Users\Zhen\Desktop\Homework 3 - Temp\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.pdb
+C:\Users\Zhen\Desktop\Homework 3 - Temp\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\Recipes.deps.json
+C:\Users\Zhen\Desktop\Homework 3 - Temp\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\Recipes.dll
+C:\Users\Zhen\Desktop\Homework 3 - Temp\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\ref\Recipes.dll
+C:\Users\Zhen\Desktop\Homework 3 - Temp\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\Recipes.pdb
+C:\Users\Zhen\Desktop\Homework 3 - Temp\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Zhen\Documents\GitHub\homework-3-Oeluz-1\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\Recipes.deps.json
+C:\Users\Zhen\Documents\GitHub\homework-3-Oeluz-1\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\Recipes.dll
+C:\Users\Zhen\Documents\GitHub\homework-3-Oeluz-1\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\ref\Recipes.dll
+C:\Users\Zhen\Documents\GitHub\homework-3-Oeluz-1\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\Recipes.pdb
+C:\Users\Zhen\Documents\GitHub\homework-3-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Zhen\Documents\GitHub\homework-3-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\EditRecipePage.xaml.g.cs
+C:\Users\Zhen\Documents\GitHub\homework-3-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Zhen\Documents\GitHub\homework-3-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\RecipePage.xaml.g.cs
+C:\Users\Zhen\Documents\GitHub\homework-3-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\SortSearchPage.xaml.g.cs
+C:\Users\Zhen\Documents\GitHub\homework-3-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.AssemblyInfoInputs.cache
+C:\Users\Zhen\Documents\GitHub\homework-3-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.AssemblyInfo.cs
+C:\Users\Zhen\Documents\GitHub\homework-3-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Zhen\Documents\GitHub\homework-3-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.dll
+C:\Users\Zhen\Documents\GitHub\homework-3-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\ref\Recipes.dll
+C:\Users\Zhen\Documents\GitHub\homework-3-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.pdb
+C:\Users\Zhen\Documents\GitHub\homework-3-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.csprojAssemblyReference.cache
+C:\Users\Zhen\Documents\GitHub\homework-4-Oeluz-1\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\Recipes.deps.json
+C:\Users\Zhen\Documents\GitHub\homework-4-Oeluz-1\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\Recipes.dll
+C:\Users\Zhen\Documents\GitHub\homework-4-Oeluz-1\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\ref\Recipes.dll
+C:\Users\Zhen\Documents\GitHub\homework-4-Oeluz-1\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\Recipes.pdb
+C:\Users\Zhen\Documents\GitHub\homework-4-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.csprojAssemblyReference.cache
+C:\Users\Zhen\Documents\GitHub\homework-4-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Zhen\Documents\GitHub\homework-4-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\EditRecipePage.xaml.g.cs
+C:\Users\Zhen\Documents\GitHub\homework-4-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Zhen\Documents\GitHub\homework-4-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\RecipePage.xaml.g.cs
+C:\Users\Zhen\Documents\GitHub\homework-4-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\SortSearchPage.xaml.g.cs
+C:\Users\Zhen\Documents\GitHub\homework-4-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.AssemblyInfoInputs.cache
+C:\Users\Zhen\Documents\GitHub\homework-4-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.AssemblyInfo.cs
+C:\Users\Zhen\Documents\GitHub\homework-4-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.dll
+C:\Users\Zhen\Documents\GitHub\homework-4-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\ref\Recipes.dll
+C:\Users\Zhen\Documents\GitHub\homework-4-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.pdb
+C:\Users\Zhen\Documents\GitHub\homework-4-Oeluz-1\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\Recipes.deps.json
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\Recipes.dll
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\ref\Recipes.dll
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\bin\Debug\netstandard2.0\Recipes.pdb
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.csprojAssemblyReference.cache
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\EditRecipePage.xaml.g.cs
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\RecipePage.xaml.g.cs
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\SortSearchPage.xaml.g.cs
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.csproj.CoreCompileInputs.cache
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.AssemblyInfoInputs.cache
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.AssemblyInfo.cs
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.dll
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\ref\Recipes.dll
+C:\Users\Quoc\Desktop\Recipes\Recipes\Recipes\obj\Debug\netstandard2.0\Recipes.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zhen\\Documents\\GitHub\\homework-4-Oeluz-1\\Recipes\\Recipes\\Recipes.UWP\\Recipes.UWP.csproj": {}
+    "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\MVVM\\Recipes\\Recipes\\Recipes.UWP\\Recipes.UWP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zhen\\Documents\\GitHub\\homework-4-Oeluz-1\\Recipes\\Recipes\\Recipes.UWP\\Recipes.UWP.csproj": {
+    "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\MVVM\\Recipes\\Recipes\\Recipes.UWP\\Recipes.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zhen\\Documents\\GitHub\\homework-4-Oeluz-1\\Recipes\\Recipes\\Recipes.UWP\\Recipes.UWP.csproj",
+        "projectUniqueName": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\MVVM\\Recipes\\Recipes\\Recipes.UWP\\Recipes.UWP.csproj",
         "projectName": "Recipes.UWP",
-        "projectPath": "C:\\Users\\Zhen\\Documents\\GitHub\\homework-4-Oeluz-1\\Recipes\\Recipes\\Recipes.UWP\\Recipes.UWP.csproj",
-        "packagesPath": "C:\\Users\\Zhen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zhen\\Documents\\GitHub\\homework-4-Oeluz-1\\Recipes\\Recipes\\Recipes.UWP\\obj\\",
+        "projectPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\MVVM\\Recipes\\Recipes\\Recipes.UWP\\Recipes.UWP.csproj",
+        "packagesPath": "C:\\Users\\Quoc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\MVVM\\Recipes\\Recipes\\Recipes.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Zhen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Quoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -33,8 +33,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "C:\\Users\\Zhen\\Documents\\GitHub\\homework-4-Oeluz-1\\Recipes\\Recipes\\Recipes\\Recipes.csproj": {
-                "projectPath": "C:\\Users\\Zhen\\Documents\\GitHub\\homework-4-Oeluz-1\\Recipes\\Recipes\\Recipes\\Recipes.csproj"
+              "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\MVVM\\Recipes\\Recipes\\Recipes\\Recipes.csproj": {
+                "projectPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\MVVM\\Recipes\\Recipes\\Recipes\\Recipes.csproj"
               }
             }
           }
@@ -87,21 +87,21 @@
         }
       }
     },
-    "C:\\Users\\Zhen\\Documents\\GitHub\\homework-4-Oeluz-1\\Recipes\\Recipes\\Recipes\\Recipes.csproj": {
+    "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\MVVM\\Recipes\\Recipes\\Recipes\\Recipes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zhen\\Documents\\GitHub\\homework-4-Oeluz-1\\Recipes\\Recipes\\Recipes\\Recipes.csproj",
+        "projectUniqueName": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\MVVM\\Recipes\\Recipes\\Recipes\\Recipes.csproj",
         "projectName": "Recipes",
-        "projectPath": "C:\\Users\\Zhen\\Documents\\GitHub\\homework-4-Oeluz-1\\Recipes\\Recipes\\Recipes\\Recipes.csproj",
-        "packagesPath": "C:\\Users\\Zhen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zhen\\Documents\\GitHub\\homework-4-Oeluz-1\\Recipes\\Recipes\\Recipes\\obj\\",
+        "projectPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\MVVM\\Recipes\\Recipes\\Recipes\\Recipes.csproj",
+        "packagesPath": "C:\\Users\\Quoc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Quoc\\Desktop\\GitHub Folder\\MVVM\\Recipes\\Recipes\\Recipes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Zhen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Quoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -159,7 +159,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

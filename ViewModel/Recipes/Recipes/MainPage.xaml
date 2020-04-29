@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Added "xmlns:local" below -->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:Recipes"
+             mc:Ignorable="d"
+             Title="Recipes"
+             x:Class="Recipes.MainPage">
+
+    <!-- this code is to bind with mainViewModel -->
+    <ContentPage.BindingContext>
+        <local:MainViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="HeaderFont">
+                <On Platform="Android" Value="PlayfairDisplay-VariableFont_wght.ttf#Playfair Display" />
+                <On Platform="UWP" Value="/Assets/PlayfairDisplay-VariableFont_wght.ttf#Playfair Display" />
+                <On Platform="iOS" Value="PlayfairDisplay-VariableFont_wght" />
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="NormalFont">
+                <On Platform="Android" Value="Ruda-VariableFont_wght.ttf#Ruda" />
+                <On Platform="UWP" Value="/Assets/Ruda-VariableFont_wght.ttf#Ruda" />
+                <On Platform="iOS" Value="Ruda-VariableFont_wght" />
+            </OnPlatform>
+            <Style TargetType="StackLayout" x:Key="BG">
+                <Setter Property="BackgroundColor" Value="{DynamicResource ThemeColor}" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.ToolbarItems>
+        <!-- Changed Clicked to Command -->
+        <ToolbarItem Text="Add" Command="{Binding AddRecipeCommand}" />
+        <!-- Changed Clicked to Command -->
+        <ToolbarItem Text="Search/Sort" Command="{Binding SearchSortCommand}" />
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <!-- Changed "{Binding .} to {Binding Data} that is from MainViewModel for ItemSource -->
+        <ListView x:Name="recipeListView"
+              ItemTapped="recipeListView_ItemTapped"
+              ItemsSource="{Binding Data}"
+              IsGroupingEnabled="True"
+              RowHeight="85">
+            <ListView.GroupHeaderTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal"
+                                     HorizontalOptions="CenterAndExpand"
+                                 Padding="10"
+                                 Margin="10,5,10,5">
+                            <Label Text="{Binding Heading, StringFormat='-- {0} --'}"
+                                   FontFamily="{StaticResource Key=HeaderFont}"
+                               TextColor="{DynamicResource ThemeColor}"
+                               VerticalTextAlignment="Center"
+                               HorizontalTextAlignment="Center"
+                               FontSize="40"
+                               FontAttributes="Bold" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.GroupHeaderTemplate>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal"
+                                     Style="{DynamicResource BG}"
+                                 Padding="10"
+                                 Margin="10,5,10,5">
+                            <Label Text="{Binding Name, StringFormat='>  {0}'}"
+                                   FontFamily="{StaticResource Key=NormalFont}"
+                               TextColor="White"
+                               VerticalTextAlignment="Center"
+                               FontSize="40"
+                               FontAttributes="Bold" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackLayout Orientation="Horizontal" Margin="10, 5" HeightRequest="80">
+            <Button BackgroundColor="OrangeRed" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked" />
+            <Button BackgroundColor="Red" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked" />
+            <Button BackgroundColor="DarkBlue" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked" />
+            <Button BackgroundColor="Purple" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

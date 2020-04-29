@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Recipes.RecipePage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="HeaderFont">
+                <On Platform="Android" Value="PlayfairDisplay-VariableFont_wght.ttf#Playfair Display" />
+                <On Platform="UWP" Value="/Assets/PlayfairDisplay-VariableFont_wght.ttf#Playfair Display" />
+                <On Platform="iOS" Value="PlayfairDisplay-VariableFont_wght" />
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="NormalFont">
+                <On Platform="Android" Value="Ruda-VariableFont_wght.ttf#Ruda" />
+                <On Platform="UWP" Value="/Assets/Ruda-VariableFont_wght.ttf#Ruda" />
+                <On Platform="iOS" Value="Ruda-VariableFont_wght" />
+            </OnPlatform>
+            <Style TargetType="Label" x:Key="HeaderStyle">
+                <Setter Property="Margin" Value="30,30,0,0" />
+                <Setter Property="FontSize" Value="40" />
+                <Setter Property="TextColor" Value="{DynamicResource ThemeColor}" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="FontFamily" Value="{StaticResource HeaderFont}" />
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource NormalFont}" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="editBtn" Text="Edit" Clicked="editBtn_Clicked" />
+        <ToolbarItem x:Name="shareBtn" Text="Share" Clicked="shareBtn_Clicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label x:Name="name"
+                   Text="{Binding Name}"
+                   HorizontalTextAlignment="Center"
+                   Margin="40,20"
+                   Style="{DynamicResource HeaderStyle}"
+                   FontSize="60"
+                   FontAttributes="Bold" />
+                <Label Text="Ingredients"
+                       Style="{StaticResource HeaderStyle}" />
+                <Frame
+                    BorderColor="{DynamicResource ThemeColor}"
+                    Margin="20">
+                    <ListView x:Name="ingredListView"
+                              ItemTapped="ingredListView_ItemTapped"
+                          ItemsSource="{Binding Ingredients}"
+                          HeightRequest="250">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Orientation="Horizontal"
+                                             Margin="10,5,10,5">
+                                        <Label Text="{Binding ., StringFormat='- {0}'}"
+                                               VerticalOptions="Center" />
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Frame>
+                <Label Text="Directions" Style="{StaticResource HeaderStyle}" />
+                <Frame BorderColor="{DynamicResource ThemeColor}" Margin="20">
+                    <ScrollView HeightRequest="400">
+                        <Label x:Name="directionText"
+                               LineHeight="1.4"
+                               Text="{Binding Directions}" />
+                    </ScrollView>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
